@@ -1,0 +1,65 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-color: lightblue;
+}
+.container{
+  width: 50vw;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: lightgreen;
+  padding-top: 50px;
+}
+h1{
+  text-align: center;
+}
+.inputField{
+  width: 50%;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+input{
+  width: 45%;
+  height: 45px;
+  border: none;
+  outline: none;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.holder{
+  width: 45%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.butt{
+  width: 35%;
+  height: 100%;
+  background-color: lightblue;
+  border-radius: 10px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
